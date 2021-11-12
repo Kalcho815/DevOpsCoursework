@@ -1,3 +1,5 @@
+package tests;
+import main.Dec2Hex;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,3 +16,5 @@ public class Tests {
         Assert.assertEquals("No arguments provided.", Dec2Hex.convert(new String[]{}));
     }
 }
+
+
